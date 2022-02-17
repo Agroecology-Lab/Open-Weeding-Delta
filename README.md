@@ -1,20 +1,12 @@
-# Nindamani the weed removal robot
-
-# Award🏅
-
-### Our project "Nindamani: The Weed Removal AgriRobot" won 1st prize🏅 in Autonomous Machines & Robotics category at NVIDIA's AI at the Edge challenge.
-
-### Check out the articles on [NVIDIA's blog](https://blogs.nvidia.com/blog/2020/04/10/robotics-duo-digs-into-the-weeds-with-winning-ai-project-at-hackster-io/),  [hackster.io](https://www.hackster.io/autoroboculture/nindamani-the-weed-removal-robot-36f7c0) page, and New Scientist's [news letter](https://www.newscientist.com/article/2241741-robot-with-pincers-can-detect-and-remove-weeds-without-harming-crops/)
 
 
-![NVIDIA challenge winner](https://github.com/AutoRoboCulture/Nindamani-the-weed-removal-robot/blob/master/demo/NVIDIA%20AI%20at%20The%20Edge%20Challenge%20Winner-converted.png)
-
-
-### Note: Please do mention our title if you find this project helpful
+This is a fork of the [Nindamani weed removal robot](https://github.com/AutoRoboCulture/Nindamani-the-weed-removal-robot)
 
 ## Project Details
 
-Nindamani, the AI based mechanically weed removal robot, which autonomously detects and segment the weeds from crop using artificial intelligence. The whole robot modules natively build on ROS2. Nindamani can be used in any early stage of crops for autonomous weeding.
+We aim to update the hardware and software as used in Nindamani.
+
+OWD,autonomously detects and segment the weeds from crop using artificial intelligence. It's built on ROS2. OWD can be used in any early stage of crops for autonomous weeding.
 
   ![](demo/Nindamani-gif_1.1.gif)
 
@@ -28,12 +20,12 @@ In this following repository, you will find instructions for software installati
   - Weed detection accuracy upto 85%
   - Easy to Operate
  
-# Software Specifications:
+# Software Specification target:
 
 | Parameter | Value |
 | ------------- | ------------- |
 | Robotics OS | ROS2.0 Dashing Diademata |
-| System | Ubuntu 18.04 LTS |
+| System | Ubuntu 20.04 LTS |
 | Communication | Wireless , UART(internal motor control)  |
 | AI Framework | Keras |
 | Programming Language | Python3 & C |
@@ -45,16 +37,15 @@ In this following repository, you will find instructions for software installati
 | ------------- | ------------- |
 | Degrees of freedom | 3 DOF |
 | Error  | ±2 mm |
-| Payload | 1.5 kg |
-| Weight | 35 kg |
-| Height | 740 to 860 mm |
+| Payload | 0.5 kg |
+| Weight | 8 kg |
+| Height | TBC to TBC mm |
 | Width | 980 mm |
 | Arm Reach | 200x200 sq mm |
 | Processor board | Jetson nano Dev Kit |
-| Microcontroller | Arduino Mega |
-| Servo Motor | 12V DC, 200RPM, 32kgcm H.Torque |
-| Stepper Motor |  48V, 6A, Nema 34, 87 kgcm H.Torque|
-| Camera | RPi cam ver.2 |
+| Microcontroller | TBC |
+| Stepper Motor /BLDC |  48V, 6A, Nema 34, 87 kgcm H.Torque|
+| Camera | TBC |
 | Wifi card | Intel 8265 |
 | USB-TTL cable |  PL2303HX chip |
 | Battery | 48V 30ah |
