@@ -9,6 +9,41 @@ We aim to update the hardware and software as used in Nindamani.
 OWD,autonomously detects and segment the weeds from crop using artificial intelligence. It's built on ROS2. OWD can be used in any early stage of crops for autonomous weeding.
 
   ![](demo/Nindamani-gif_1.1.gif)
+  
+  
+# Reference software
+- Ubuntu 20.04 LTS
+- [Realtime kernel](https://orenbell.com/?p=436)
+- ROS2 Dashing
+- [Nindamani weeding ROS2 stack](https://github.com/samuk/Nindamani-the-weed-removal-robot)
+- [DepthAI-ROS](https://github.com/luxonis/depthai-ros)
+
+# Software Todo
+
+- Install Nindami on 20.04
+- Adapt Nindamani for [BLDC](https://github.com/samuk/Nindamani-the-weed-removal-robot/tree/master/stepper_control)
+- Add support for TOF sensors/ height adjustment
+- Publish speed control ROS2 messages to slow down/stop UGV
+- Improve weed/row recognition algorithms
+
+# Datasets
+[1300 images of sesame/weeds](https://www.kaggle.com/ravirajsinh45/crop-and-weed-detection-data-with-bounding-boxes)
+
+# Learning models
+[OpenCV / YLOV3](https://github.com/ravirajsinh45/Crop_and_weed_detection)
+
+# Delta notes
+
+[Inverse Kinematics](https://github.com/giridharanponnuvel/Delta-Robot-Inverse-Kinematics)
+
+[Commercial Igus with 3x linear actuator](https://www.igus.co.uk/product/20433?artNr=DLE-DR-0001)
+
+[Delta X1](https://store.deltaxrobot.com/products/delta-x-basic-kit) 
+
+[TlAlexander planetary gear](https://github.com/tlalexander/brushless_robot_arm#readme)
+
+![https://openbuilds.com/builds/m3delta.1022/](https://openbuilds.com/attachments/20140724_222827-jpg.3669/)
+
 
 In this following repository, you will find instructions for software installation and control mechanism for Nindamani robot.
 
