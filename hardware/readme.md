@@ -28,5 +28,8 @@ Or do we start with
 - 3X [Stepper drivers](https://www.aliexpress.com/item/32714985325.html)
 and do BLDC later?
 
+## Lasers
+
+[Wavelength: 405nm](https://www.aliexpress.com/item/4000781652185.html)
 
 These components need to be assembled, tested & documented.
