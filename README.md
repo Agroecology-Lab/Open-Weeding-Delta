@@ -11,12 +11,17 @@ OWD,autonomously detects and segment the weeds from crop using artificial intell
   ![](demo/Nindamani-gif_1.1.gif)
   
   
-# Reference software
-- Ubuntu 20.04 LTS
-- [Realtime kernel](https://orenbell.com/?p=436)
-- ROS2 Dashing
-- [Nindamani weeding ROS2 stack](https://github.com/samuk/Nindamani-the-weed-removal-robot)
-- [DepthAI-ROS](https://github.com/luxonis/depthai-ros)
+# Software Specification :
+
+| Parameter | Value |
+| ------------- | ------------- |
+| Robotics OS | ROS2.0 Dashing Diademata |
+| System | Ubuntu 20.04 LTS |
+| Kernel | [Realtime kernel](https://orenbell.com/?p=436) |
+| Communication | Wireless , UART(internal motor control)  |
+| Vision |[DepthAI-ROS](https://github.com/luxonis/depthai-ros)|
+| AI Framework | Keras |
+| Programming Language | Python3 & C |
 
 # Software Todo
 
@@ -26,26 +31,30 @@ OWD,autonomously detects and segment the weeds from crop using artificial intell
 - Publish speed control ROS2 messages to slow down/stop UGV
 - Improve weed/row recognition algorithms
 
+
+# Hardware Specifications:
+
+Updated [hardware specification in progress](https://github.com/Agroecology-Lab/Open-Weeding-Delta/tree/master/hardware#readme)
+
+| Parameter | Value |
+| ------------- | ------------- |
+| Degrees of freedom | 3 DOF |
+| Error  | ? mm |
+| Payload | 0.5 kg |
+| Weight | 8 kg |
+| Height | TBC to TBC mm |
+| Width | TBC mm |
+| Arm Reach | TBC sq mm |
+| Processor board | Jetson nano Dev Kit |
+| Microcontroller | TBC |
+| Stepper Motor /BLDC |  48V, 6A, Nema 34, 87 kgcm H.Torque|
+| Camera | TBC |
+| Wifi card | Intel 8265 |
+| USB-TTL cable |  PL2303HX chip |
+| Battery | 48V 30ah |
+
 # Datasets
 [1300 images of sesame/weeds](https://www.kaggle.com/ravirajsinh45/crop-and-weed-detection-data-with-bounding-boxes)
-
-# Learning models
-[OpenCV / YLOV3](https://github.com/ravirajsinh45/Crop_and_weed_detection)
-
-# Delta notes
-
-[Inverse Kinematics](https://github.com/giridharanponnuvel/Delta-Robot-Inverse-Kinematics)
-
-[Commercial Igus with 3x linear actuator](https://www.igus.co.uk/product/20433?artNr=DLE-DR-0001)
-
-[Delta X1](https://store.deltaxrobot.com/products/delta-x-basic-kit) 
-
-[TlAlexander planetary gear](https://github.com/tlalexander/brushless_robot_arm#readme)
-
-![https://openbuilds.com/builds/m3delta.1022/](https://openbuilds.com/attachments/20140724_222827-jpg.3669/)
-
-
-In this following repository, you will find instructions for software installation and control mechanism for Nindamani robot.
 
 # Features:
   - Fully ROS2 compatible
@@ -55,36 +64,6 @@ In this following repository, you will find instructions for software installati
   - Weed detection accuracy upto 85%
   - Easy to Operate
  
-# Software Specification target:
-
-| Parameter | Value |
-| ------------- | ------------- |
-| Robotics OS | ROS2.0 Dashing Diademata |
-| System | Ubuntu 20.04 LTS |
-| Communication | Wireless , UART(internal motor control)  |
-| AI Framework | Keras |
-| Programming Language | Python3 & C |
-
-
-# Hardware Specifications:
-
-| Parameter | Value |
-| ------------- | ------------- |
-| Degrees of freedom | 3 DOF |
-| Error  | ±2 mm |
-| Payload | 0.5 kg |
-| Weight | 8 kg |
-| Height | TBC to TBC mm |
-| Width | 980 mm |
-| Arm Reach | 200x200 sq mm |
-| Processor board | Jetson nano Dev Kit |
-| Microcontroller | TBC |
-| Stepper Motor /BLDC |  48V, 6A, Nema 34, 87 kgcm H.Torque|
-| Camera | TBC |
-| Wifi card | Intel 8265 |
-| USB-TTL cable |  PL2303HX chip |
-| Battery | 48V 30ah |
-
 # Packages
 In this section we will install all the necessary dependencies in order to be able to launch nindamani robot:
   - `nindamani_agri_robot` - integrate all launch node of nindamani robot
@@ -222,4 +201,14 @@ We have presented the concept that how weeds can be detected from crops using Ar
 Kevin Patel
 Nihar Chaniyara
 Email: autoroboculture@gmail.com
+
+# Delta notes
+
+[Inverse Kinematics](https://github.com/giridharanponnuvel/Delta-Robot-Inverse-Kinematics)
+
+[Commercial Igus with 3x linear actuator](https://www.igus.co.uk/product/20433?artNr=DLE-DR-0001)
+
+[Delta X1](https://store.deltaxrobot.com/products/delta-x-basic-kit) 
+
+[TlAlexander planetary gear](https://github.com/tlalexander/brushless_robot_arm#readme)
 ```
