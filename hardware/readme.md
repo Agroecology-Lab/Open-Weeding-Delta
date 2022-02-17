@@ -31,5 +31,6 @@ and do BLDC later?
 ## Lasers
 
 [Wavelength: 405nm](https://www.aliexpress.com/item/4000781652185.html)
+[450nm ~5w](https://www.aliexpress.com/item/1005003640254307.html)
 
 These components need to be assembled, tested & documented.
