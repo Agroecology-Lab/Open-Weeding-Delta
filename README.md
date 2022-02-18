@@ -26,7 +26,7 @@ Open Weeding Delta,autonomously detects and segment the weeds from crop using ar
 # Software Todo
 
 - Install Nindami on 20.04
-- Adapt Nindamani for [OakD](https://github.com/precision-sustainable-ag/PhenoCV-WeedCam)
+- Adapt Nindamani for [OakD](https://github.com/precision-sustainable-ag/PhenoCV-WeedCam) [Use nodelet to publish]( https://github.com/luxonis/depthai-ros/issues/9) to [Image_transport](https://github.com/ros-perception/image_common/tree/ros2)
 - Add support for TOF sensors/ height adjustment
 - Publish speed control ROS2 messages to slow down/stop UGV
 - Improve weed/row recognition algorithms
