@@ -54,10 +54,15 @@ Updated [hardware specification in progress](https://github.com/Agroecology-Lab/
 | Battery | 48V 30ah |
 
 # Datasets
+[Latvia 1118 images in which 6 food crops and 8 weed species are identified, altogether 7853 annotations ](https://data.mendeley.com/datasets/nj4vtk4tt6/1) 7,442 weed images, 411 crop images
+
+[Cropdeep](https://www.mdpi.com/1424-8220/19/5/1058) seems useful, but not available?
+
 [1300 images of sesame/weeds](https://www.kaggle.com/ravirajsinh45/crop-and-weed-detection-data-with-bounding-boxes)
+
 [1700 images of weeds native to Autralia](https://github.com/AlexOlsen/DeepWeeds)
 
-[Latvia 1118 images in which 6 food crops and 8 weed species are identified, altogether 7853 annotations ](https://data.mendeley.com/datasets/nj4vtk4tt6/1)
+
 
 # Features:
   - Fully ROS2 compatible
