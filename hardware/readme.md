@@ -30,10 +30,14 @@ and do BLDC later?
 
 ## Lasers
 
-[Wavelength: 405nm](https://www.aliexpress.com/item/4000781652185.html)
+[Neje A40640 ~£200](https://neje.shop/products/40w-laser-module-laser-head-for-cnc-laser-cutter-engraver-woodworking-machine)
+https://youtu.be/QrtGMzzSWDo?t=605
 
-[450nm ~5w](https://www.aliexpress.com/item/1005003640254307.html)
+[A40640, 450nm ~10w, 220g](https://www.aliexpress.com/item/4001287562336.html)
 
-[Neje A40640](https://neje.shop/products/40w-laser-module-laser-head-for-cnc-laser-cutter-engraver-woodworking-machine), [450nm ~10w, 220g, £200](https://www.aliexpress.com/item/4001287562336.html)
 
+
+[Cheaper Wavelength: 405nm](https://www.aliexpress.com/item/4000781652185.html)
+
+[Cheaper 450nm ~5w](https://www.aliexpress.com/item/1005003640254307.html)
 These components need to be assembled, tested & documented.
