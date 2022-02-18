@@ -21,7 +21,7 @@ Open Weeding Delta,autonomously detects and segment the weeds from crop using ar
 | Communication | Wireless, Canbus, UART(internal motor control)  |
 | Vision |[DepthAI-ROS](https://github.com/luxonis/depthai-ros)|
 | AI Framework | Keras |
-| Object instance segmentation| [Mask R-CNN](https://www.youtube.com/watch?v=4tkgOzQ9yyo|
+| Object instance segmentation| [Mask R-CNN](https://www.youtube.com/watch?v=4tkgOzQ9yyo)|
 | Programming Language | Python3 & C |
 
 # Software Todo
