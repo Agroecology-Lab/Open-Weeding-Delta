@@ -81,21 +81,22 @@ In this section we will install all the necessary dependencies in order to be ab
   - Download latest SDK image: https://github.com/Qengineering/Jetson-Nano-Ubuntu-20-image
   - Completely Format SD card (should not contain any partition). Use Ubuntu default app **Disks** [Recommeded 64GB SD card]
   - Copy ZIP(jetpack image) file to SD card: https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#write
-## 2. Prerequisites and Dependencies for TensorFlow
-  - Install Keras: `sudo pip3 install keras`
-  - Follow this instructions [official from NVIDIA]: https://docs.nvidia.com/deeplearning/frameworks/install-tf-jetson-platform/index.html#prereqs
-## 3. ROS2 (Foxy)
+  - 
+## 2. ROS2 (Foxy)
   - Install ROS2 base: https://index.ros.org/doc/ros2/Installation/Foxy/Linux-Install-Debians/
   - Make sure that you have colcon in your machine if you are installing from Debian packages. `sudo apt install python3-colcon-common-extensions`
   - For adding additional packages use: `sudo apt install ros-$ROS_DISTRO-<package-name>`
   
-## 4. Arduino
+## 3. Arduino
   - Follow this repo to install Arduino on Jetson nano: https://github.com/JetsonHacksNano/installArduinoIDE.git
   - To get Temporary access to USB: `sudo chown <user-name> /dev/tty<usb>` and `sudo chmod a+rw /dev/tty<usb>`
   - To set Permenantly change USB device permission: http://ask.xmodulo.com/change-usb-device-permission-linux.html
   - To control arduino from Command line Source:https://github.com/arduino/arduino-cli
   - Clone this repo: `https://github.com/AutoRoboCulture/Arduino-Jetson-nano-interface.git`
   - Place this repo in Arduino Folder
+
+## 4. Depthai
+- Follow these instructions to install DepthAI: https://docs.luxonis.com/projects/api/en/latest/install/#jetson
   
 ## 5. Wifi
   - To setup default wifi connection(Intel 8265 NGW card) while bootup Source: https://desertbot.io/blog/how-to-add-a-dual-wifi-bluetooth-card-to-a-jetson-nano-intel-8265
