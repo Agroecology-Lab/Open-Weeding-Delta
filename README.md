@@ -78,14 +78,14 @@ In this section we will install all the necessary dependencies in order to be ab
 # Installation on Jetson Nano Dev Kit
 
 ## 1. NVIDIA Jetpack SDK
-  - Download latest SDK image: https://developer.nvidia.com/embedded/jetpack
+  - Download latest SDK image: https://github.com/Qengineering/Jetson-Nano-Ubuntu-20-image
   - Completely Format SD card (should not contain any partition). Use Ubuntu default app **Disks** [Recommeded 64GB SD card]
   - Copy ZIP(jetpack image) file to SD card: https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#write
 ## 2. Prerequisites and Dependencies for TensorFlow
   - Install Keras: `sudo pip3 install keras`
   - Follow this instructions [official from NVIDIA]: https://docs.nvidia.com/deeplearning/frameworks/install-tf-jetson-platform/index.html#prereqs
-## 3. ROS2 (Dashing Diademata)
-  - Install ROS2 base: https://index.ros.org/doc/ros2/Installation/Dashing/Linux-Install-Debians/
+## 3. ROS2 (Foxy)
+  - Install ROS2 base: https://index.ros.org/doc/ros2/Installation/Foxy/Linux-Install-Debians/
   - Make sure that you have colcon in your machine if you are installing from Debian packages. `sudo apt install python3-colcon-common-extensions`
   - For adding additional packages use: `sudo apt install ros-$ROS_DISTRO-<package-name>`
   
@@ -96,11 +96,8 @@ In this section we will install all the necessary dependencies in order to be ab
   - To control arduino from Command line Source:https://github.com/arduino/arduino-cli
   - Clone this repo: `https://github.com/AutoRoboCulture/Arduino-Jetson-nano-interface.git`
   - Place this repo in Arduino Folder
-
-## 5. OpenCV 3.4.4
-  - Refer link: https://www.pyimagesearch.com/2018/05/28/ubuntu-18-04-how-to-install-opencv/
   
-## 6. Wifi
+## 5. Wifi
   - To setup default wifi connection(Intel 8265 NGW card) while bootup Source: https://desertbot.io/blog/how-to-add-a-dual-wifi-bluetooth-card-to-a-jetson-nano-intel-8265
 
 # Create ROS2 Workspace
