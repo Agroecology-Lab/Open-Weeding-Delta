@@ -6,7 +6,7 @@ This is a fork of the [Nindamani weed removal robot](https://github.com/AutoRobo
 
 We aim to update the hardware and software as used in Nindamani.
 
-OWD,autonomously detects and segment the weeds from crop using artificial intelligence. It's built on ROS2. OWD can be used in any early stage of crops for autonomous weeding.
+Open Weeding Delta,autonomously detects and segment the weeds from crop using artificial intelligence. It's built on ROS2. Open Weeding Delta could be used in any early stage crops for autonomous weeding.
 
   ![](demo/Nindamani-gif_1.1.gif)
   
@@ -18,7 +18,7 @@ OWD,autonomously detects and segment the weeds from crop using artificial intell
 | Robotics OS | ROS2.0 Dashing Diademata |
 | System | Ubuntu 20.04 LTS |
 | Kernel | [Realtime kernel](https://orenbell.com/?p=436) |
-| Communication | Wireless , UART(internal motor control)  |
+| Communication | Wireless, Canbus, UART(internal motor control)  |
 | Vision |[DepthAI-ROS](https://github.com/luxonis/depthai-ros)|
 | AI Framework | Keras |
 | Programming Language | Python3 & C |
@@ -26,7 +26,7 @@ OWD,autonomously detects and segment the weeds from crop using artificial intell
 # Software Todo
 
 - Install Nindami on 20.04
-- Adapt Nindamani for [BLDC](https://github.com/samuk/Nindamani-the-weed-removal-robot/tree/master/stepper_control)
+- Adapt Nindamani for [OakD](https://github.com/precision-sustainable-ag/PhenoCV-WeedCam)
 - Add support for TOF sensors/ height adjustment
 - Publish speed control ROS2 messages to slow down/stop UGV
 - Improve weed/row recognition algorithms
