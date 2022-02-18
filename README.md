@@ -58,6 +58,8 @@ Updated [hardware specification in progress](https://github.com/Agroecology-Lab/
 
 [Cropdeep](https://www.mdpi.com/1424-8220/19/5/1058) seems useful, but not available?
 
+[CFWD](https://github.com/cwfid) 242 annotated images
+
 [1300 images of sesame/weeds](https://www.kaggle.com/ravirajsinh45/crop-and-weed-detection-data-with-bounding-boxes)
 
 [1700 images of weeds native to Autralia](https://github.com/AlexOlsen/DeepWeeds)
