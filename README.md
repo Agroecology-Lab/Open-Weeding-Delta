@@ -16,7 +16,7 @@ Open Weeding Delta,autonomously detects and segment the weeds from crop using ar
 | Parameter | Value |
 | ------------- | ------------- |
 | Robotics OS | ROS2.0 Dashing Diademata |
-| System | Ubuntu 20.04 LTS |
+| System | [Ubuntu 20.04 LTS](https://github.com/ANI717/Headless-Jetson-Nano-Setup#readme) |
 | Kernel | [Realtime kernel](https://orenbell.com/?p=436) |
 | Communication | Wireless, Canbus, UART(internal motor control)  |
 | Vision |[DepthAI-ROS](https://github.com/luxonis/depthai-ros)|
