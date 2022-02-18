@@ -55,13 +55,13 @@ Updated [hardware specification in progress](https://github.com/Agroecology-Lab/
 | Battery | 48V 30ah |
 
 # Datasets
-[Latvia 1118 images in which 6 food crops and 8 weed species are identified, altogether 7853 annotations ](https://data.mendeley.com/datasets/nj4vtk4tt6/1) 7,442 weed images, 411 crop images
+[Latvia 1118 anotated images](https://data.mendeley.com/datasets/nj4vtk4tt6/1) 7,442 weed images (8x species), 411 crop images (6x crops)
 
 [V1 Plant seedings](https://www.kaggle.com/c/plant-seedlings-classification/data) 1.8GB
 
 [V2 Plant seedlings](https://www.kaggle.com/vbookshelf/v2-plant-seedlings-dataset) 2GB
 
-[Cropdeep](https://www.mdpi.com/1424-8220/19/5/1058) seems useful, but not available?
+[Cropdeep](https://www.mdpi.com/1424-8220/19/5/1058) seems useful, but data not available?
 
 [CFWD](https://github.com/cwfid) 242 annotated images
 
@@ -126,7 +126,7 @@ In this section we will install all the necessary dependencies in order to be ab
   ```
 
 # Clone the Mask R-CNN GitHub Repository:
-  1. Code: `git clone https://github.com/matterport/Mask_RCNN.git`
+  1. Code: `git clone https://github.com/BupyeongHealer/Mask_RCNN_tf_2.x`
   2. Copy this cloned repo to `rpicam_ai_interface` package: `cp Mask_RCNN rpicam_ai_interface/.`
   3. Run command: 
       - `cd rpicam_ai_interface/Mask_RCNN`
