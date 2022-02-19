@@ -6,7 +6,7 @@ This is a fork of the [Nindamani weed removal robot](https://github.com/AutoRobo
 
 We aim to update the hardware and software as used in Nindamani.
 
-Open Weeding Delta,autonomously detects and segment the weeds from crop using artificial intelligence. It's built on ROS2. Open Weeding Delta could be used in any early stage crops for autonomous weeding.
+Open Weeding Delta,autonomously detects and segment the weeds from crop using [artificial intelligence](https://www.mdpi.com/2077-0472/11/3/222/htm). It's built on ROS2. Open Weeding Delta could be used in any early stage crops for autonomous weeding.
 
   ![](demo/Nindamani-gif_1.1.gif)
   
@@ -60,6 +60,8 @@ Updated [hardware specification in progress](https://github.com/Agroecology-Lab/
 [V1 Plant seedings](https://www.kaggle.com/c/plant-seedlings-classification/data) 1.8GB
 
 [V2 Plant seedlings](https://www.kaggle.com/vbookshelf/v2-plant-seedlings-dataset) 2GB
+
+[5000 seedling images](http://dstore.alazhar.edu.ps/xmlui/handle/123456789/279?show=full)
 
 [Cropdeep](https://www.mdpi.com/1424-8220/19/5/1058) seems useful, but data not available?
 
