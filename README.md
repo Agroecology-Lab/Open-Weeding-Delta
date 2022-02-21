@@ -6,7 +6,7 @@ This is a fork of the [Nindamani weed removal robot](https://github.com/AutoRobo
 
 We aim to update the hardware and software as used in Nindamani.
 
-Open Weeding Delta,autonomously detects and segment the weeds from crop using [artificial intelligence](https://www.mdpi.com/2077-0472/11/3/222/htm). It's built on ROS2. Open Weeding Delta could be used in any early stage crops for autonomous weeding.
+Open Weeding Delta,autonomously detects and segment the weeds from crop using [artificial intelligence](https://www.mdpi.com/2077-0472/11/3/222/htm). It's built on ROS2. Open Weeding Delta could be used in any early stage crops for autonomous weeding using mechanical or [laser actuators](https://neje.shop/products/40w-laser-module-laser-head-for-cnc-laser-cutter-engraver-woodworking-machine)
 
   ![](demo/Nindamani-gif_1.1.gif)
   
