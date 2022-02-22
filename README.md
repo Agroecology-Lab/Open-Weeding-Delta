@@ -57,6 +57,8 @@ Updated [hardware specification in progress](https://github.com/Agroecology-Lab/
 # Datasets
 [Latvia 1118 anotated images](https://data.mendeley.com/datasets/nj4vtk4tt6/1) 7,442 weed images (8x species), 411 crop images (6x crops)
 
+[960 unique plants belonging to 12 species at several growth stages](https://paperswithcode.com/dataset/plant-seedlings-dataset)
+
 [V1 Plant seedings](https://www.kaggle.com/c/plant-seedlings-classification/data) 1.8GB
 
 [V2 Plant seedlings](https://www.kaggle.com/vbookshelf/v2-plant-seedlings-dataset) 2GB
