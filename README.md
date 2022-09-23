@@ -15,8 +15,8 @@ Open Weeding Delta,autonomously detects and segment the weeds from crop using [a
 
 | Parameter | Value |
 | ------------- | ------------- |
-| Robotics OS | ROS2.0 Foxy |
-| System | [Ubuntu 20.04 LTS](https://github.com/Qengineering/Jetson-Nano-Ubuntu-20-image) |
+| Robotics OS | ROS2.0 Humble |
+| System | [Ubuntu 22.04 LTS](https://github.com/Qengineering/Jetson-Nano-Ubuntu-20-image) |
 | Kernel | [Realtime kernel](https://orenbell.com/?p=436) |
 | Communication | Wireless, Canbus, UART(internal motor control)  |
 | Vision |[DepthAI-ROS](https://github.com/luxonis/depthai-ros)|
@@ -26,7 +26,7 @@ Open Weeding Delta,autonomously detects and segment the weeds from crop using [a
 
 # Software Todo
 
-- Install Nindami on [20.04](https://github.com/Qengineering/Jetson-Nano-Ubuntu-20-image) / Foxy
+- Install Nindami on [22.04](https://github.com/Qengineering/Jetson-Nano-Ubuntu-20-image) / Humble
 - Adapt Nindamani for [OakD](https://github.com/precision-sustainable-ag/PhenoCV-WeedCam) [Use nodelet to publish]( https://github.com/luxonis/depthai-ros/issues/9) to [Image_transport](https://github.com/ros-perception/image_common/tree/ros2) [RPIscript may then work](https://github.com/Agroecology-Lab/Open-Weeding-Delta/blob/bf9583d77d922ba66b18a63d69f9571a39000eb1/rpicam_ai_interface/scripts/rpicam_ai_interface.py#L10)
 - Add support for TOF sensors/ height adjustment
 - Publish speed control ROS2 messages to slow down/stop UGV
