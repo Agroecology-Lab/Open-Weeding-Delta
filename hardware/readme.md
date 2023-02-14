@@ -3,11 +3,12 @@ This is the approximate style of Delta
 ![](https://raw.githubusercontent.com/samuk/Sawppy_Rover/e5f680594240ed2d8a4927f3c0a8c97fe7f28924/modifications/Ag/photos/delta.png)
 
 # Reference Hardware
+- 3X [Linear actuators](https://www.aliexpress.com/item/32838215862.html)
+- 3X BLDC motors
 - 3x [3d print - corner.stl](https://openbuilds.com/builds/m3delta.1022/) for triangle - Todo
 - 1x 3d print - centrehub.stl - Todo
 - 1x [3d print - plate.STL](https://www.thingiverse.com/thing:1249297/files) or [COTS](https://www.aliexpress.com/item/32707713574.html)
 - 3X [Aluminum threaded bar/ carbon fiber arms](https://www.tunmaker.tn/2018/06/19/delta-robot-project/) 
-- 3X [Linear actuators](https://www.aliexpress.com/item/32838215862.html)
 - 1X  Weed clearing actuator, using vertical rotation - To be validated
 
 Centrehub.stl
@@ -15,8 +16,8 @@ Centrehub.stl
 
 # Reference Electronics
 
-- 1x [Jetson Nano or better](https://www.jetsonhacks.com/2020/05/04/spi-on-jetson-using-jetson-io/)
-- 1x [Canbus shield](https://wiki.seeedstudio.com/2-Channel-CAN-BUS-FD-Shield-for-Raspberry-Pi/)
+- 1x [AI-64]()
+- 1x [Canbus shield]()
 - 2X [Twisted fields drivers](https://github.com/jkirsons/stealth-controller)
 - 3X [5010 motors](https://www.aliexpress.com/item/32517972556.html)
 - 1x [Luxonis Oak D](https://shop.luxonis.com/products/1098obcenclosure)
