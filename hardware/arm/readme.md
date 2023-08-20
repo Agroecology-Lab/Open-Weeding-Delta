@@ -4,7 +4,7 @@ Bicep https://github.com/Scottapotamas/zaphod-bot/blob/master/mechanical/design/
 
 Bicep elbow https://github.com/Scottapotamas/zaphod-bot/blob/master/mechanical/design/manf_outputs/machining_proto/bicep_elbow.STEP
 
-End effector https://github.com/Scottapotamas/zaphod-bot/blob/master/mechanical/design/manf_outputs/printed_proto/proto_2/effector_planar.STEP
+End effector https://github.com/Scottapotamas/zaphod-bot/blob/master/mechanical/design/manf_outputs/printed_proto/proto_3/effector_3.STEP
 
 3x motor in Nema23 https://odriverobotics.com/shop/odrive-custom-motor-d5065
 
