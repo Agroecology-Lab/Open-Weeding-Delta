@@ -6,3 +6,6 @@ Carbon upper arm https://www.aliexpress.com/item/32869736483.html
 
 Carbon lower arm https://www.aliexpress.com/item/32952287433.html
 
+2x twisted BLDC controllers
+
+Kinematics on a pico? https://github.com/tinkersprojects/Delta-Kinematics-Library
