@@ -1,3 +1,9 @@
+Investigate BOM https://hw.eeros.org/eeduro/start
+
+Possibly handy Python https://github.com/ArthasMenethil-A/Delta-Robot-Trajectory-Planning
+
+Toy: https://www.instructables.com/EEZYbotDELTA-3Dprinted-Robot/
+
 Base https://github.com/Scottapotamas/zaphod-bot/blob/master/mechanical/design/manf_outputs/machining_proto/base_plate_light.STEP
 
 Bicep https://github.com/Scottapotamas/zaphod-bot/blob/master/mechanical/design/manf_outputs/machining_proto/bicep2.STEP
