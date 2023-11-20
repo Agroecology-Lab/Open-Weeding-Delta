@@ -5,7 +5,7 @@ Keops would be nice, but kinematics obscure. Probably best to do arms instead.
 
 ![](https://raw.githubusercontent.com/Scottapotamas/zaphod-bot/master/docs/imgs/delta-render.jpg)
 
-Use the mount plate from the Zaphod above
+Use the mount plate and other mechanical components from the [Zaphod pictured above](https://github.com/Scottapotamas/zaphod-bot/tree/master#mechanics)
 
 # Kinematics software 
 
@@ -13,7 +13,8 @@ Use the mount plate from the Zaphod above
   
 # Reference Hardware
 - 3X [BLDC motors in Nema23 format](https://odriverobotics.com/shop/odrive-custom-motor-d5065)
-- 3x Nema23 [mount bracket](https://www.amazon.co.uk/STEPPERONLINE-Bracket-Precision-Alloy-Planetary/dp/B07SRXNSDC)
+- 3x [AMT212B encoder](https://odriverobotics.com/shop/cui-amt212b-v-od)
+- 3x [Nema23 mount bracket](https://www.amazon.co.uk/STEPPERONLINE-Bracket-Precision-Alloy-Planetary/dp/B07SRXNSDC)
 - [Base plate](https://github.com/Scottapotamas/zaphod-bot/blob/master/mechanical/design/manf_outputs/machining_proto/base_plate_light.STEP)
 - [Bicep](https://github.com/Scottapotamas/zaphod-bot/blob/master/mechanical/design/manf_outputs/machining_proto/bicep2.STEP)
 - [Bicep elbow](https://github.com/Scottapotamas/zaphod-bot/blob/master/mechanical/design/manf_outputs/machining_proto/bicep_elbow.STEP)
