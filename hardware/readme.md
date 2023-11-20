@@ -29,6 +29,7 @@ Use the mount plate and other mechanical components from the [Zaphod pictured ab
 - 3x [TOF?](https://www.aliexpress.com/item/32958364902.html)
 
 # Vision System
+- [VGA TOF sensor?](https://github.com/lnsru/melexis_VGA_ToF_camera) [info](https://www.melexis.com/en/product/MLX75027/Gen3-VGA-time-of-flight-3D-camera)
 - 2x Pi compatible camera into Ai-64?
 - 1x [Luxonis Oak D?](https://shop.luxonis.com/products/1098obcenclosure)
 
