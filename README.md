@@ -1,17 +1,21 @@
 
 
-This is a fork of the [Nindamani weed removal robot](https://github.com/AutoRoboCulture/Nindamani-the-weed-removal-robot)
+# Hardware Specifications:
+
+Updated [hardware specification in progress](https://github.com/Agroecology-Lab/Open-Weeding-Delta/tree/master/hardware#readme)
+
 
 ## Project Details
 
-We aim to update the hardware and software as used in Nindamani.
+Inspired by [Nindamani weed removal robot](https://github.com/AutoRoboCulture/Nindamani-the-weed-removal-robot)
+
+Looking to improve on that based on the hardware linked above
 
 Open Weeding Delta,autonomously detects and segment the weeds from crop using [artificial intelligence](https://www.mdpi.com/2077-0472/11/3/222/htm). It's built on ROS2. Open Weeding Delta could be used in any early stage crops for autonomous weeding using mechanical or [laser actuators](https://neje.shop/products/40w-laser-module-laser-head-for-cnc-laser-cutter-engraver-woodworking-machine)
 
   ![](demo/Nindamani-gif_1.1.gif)
   
   
-# Software Specification :
 
 | Parameter | Value |
 | ------------- | ------------- |
@@ -24,7 +28,6 @@ Open Weeding Delta,autonomously detects and segment the weeds from crop using [a
 | Object instance segmentation| [Mask R-CNN](https://www.youtube.com/watch?v=4tkgOzQ9yyo)|
 | Programming Language | Python3 & C |
 
-# Software Todo
 
 - Install Nindami on [22.04](https://github.com/Qengineering/Jetson-Nano-Ubuntu-20-image) / Humble
 - Adapt Nindamani for [OakD](https://github.com/precision-sustainable-ag/PhenoCV-WeedCam) [Use nodelet to publish]( https://github.com/luxonis/depthai-ros/issues/9) to [Image_transport](https://github.com/ros-perception/image_common/tree/ros2) [RPIscript may then work](https://github.com/Agroecology-Lab/Open-Weeding-Delta/blob/bf9583d77d922ba66b18a63d69f9571a39000eb1/rpicam_ai_interface/scripts/rpicam_ai_interface.py#L10)
@@ -33,9 +36,6 @@ Open Weeding Delta,autonomously detects and segment the weeds from crop using [a
 - Improve weed/row recognition algorithms
 
 
-# Hardware Specifications:
-
-Updated [hardware specification in progress](https://github.com/Agroecology-Lab/Open-Weeding-Delta/tree/master/hardware#readme)
 
 | Parameter | Value |
 | ------------- | ------------- |
