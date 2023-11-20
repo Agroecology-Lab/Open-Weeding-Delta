@@ -23,7 +23,7 @@ Use the mount plate and other mechanical components from the [Zaphod pictured ab
 
 # Reference Electronics
 
-- 2X [Twisted fields motor drivers](https://github.com/Twisted-Fields/rp2040-motor-controller#rp2040-motor-controller)
+- 2X [Twisted fields motor drivers](https://github.com/Twisted-Fields/rp2040-motor-controller#rp2040-motor-controller), [Firmware](https://github.com/Twisted-Fields/rp2040-motor-firmware#twisted-fields-rp2040-motor-controller-firmware), [interface](https://docs.simplefoc.com/commander_interface)
 - 1x [AI-64](https://www.beagleboard.org/boards/beaglebone-ai-64)
 - 1x [CanBus cape](https://www.beyondlogic.org/adding-can-to-the-beaglebone-black/) 
 - 3x [TOF?](https://www.aliexpress.com/item/32958364902.html)
