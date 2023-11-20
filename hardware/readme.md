@@ -13,7 +13,6 @@ Use the mount plate from the Zaphod above
   
 # Reference Hardware
 - 3X [BLDC motors in Nema23 format](https://odriverobotics.com/shop/odrive-custom-motor-d5065)
-- 2X [Twisted fields drivers](https://github.com/Twisted-Fields/rp2040-motor-controller#rp2040-motor-controller)
 - 3x Nema23 [mount bracket](https://www.amazon.co.uk/STEPPERONLINE-Bracket-Precision-Alloy-Planetary/dp/B07SRXNSDC)
 - [Base plate](https://github.com/Scottapotamas/zaphod-bot/blob/master/mechanical/design/manf_outputs/machining_proto/base_plate_light.STEP)
 - [Bicep](https://github.com/Scottapotamas/zaphod-bot/blob/master/mechanical/design/manf_outputs/machining_proto/bicep2.STEP)
@@ -23,9 +22,15 @@ Use the mount plate from the Zaphod above
 
 # Reference Electronics
 
-- 1x [AI-64]()
-- 1x [Luxonis Oak D](https://shop.luxonis.com/products/1098obcenclosure)
+- 2X [Twisted fields motor drivers](https://github.com/Twisted-Fields/rp2040-motor-controller#rp2040-motor-controller)
+- 1x [AI-64](https://www.beagleboard.org/boards/beaglebone-ai-64)
+- 1x [CanBus cape](https://www.beyondlogic.org/adding-can-to-the-beaglebone-black/) 
 - 3x [TOF?](https://www.aliexpress.com/item/32958364902.html)
+
+# Vision System
+- 2x Pi compatible camera into Ai-64?
+- 1x [Luxonis Oak D?](https://shop.luxonis.com/products/1098obcenclosure)
+
 
 ## Laser actuators
 
