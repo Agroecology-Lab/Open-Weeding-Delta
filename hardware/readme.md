@@ -12,7 +12,7 @@ Use the mount plate and other mechanical components from the [Zaphod pictured ab
 - Developed from [eeduro](https://github.com/eeduro/delta)
   
 # Reference Hardware
-- 3X [BLDC motors in Nema23 format](https://odriverobotics.com/shop/odrive-custom-motor-d5065)
+- 3X [BLDC motors in Nema23 format](https://odriverobotics.com/shop/odrive-custom-motor-d5065) each with [force of 208N](https://docs.google.com/spreadsheets/d/12vzz7XVEK6YNIOqH0jAz51F5VUpc-lJEs3mmkWP1H4Y/edit#gid=0)
 - 3x [AMT212B encoder](https://odriverobotics.com/shop/cui-amt212b-v-od)
 - 3x [Nema23 mount bracket](https://www.amazon.co.uk/STEPPERONLINE-Bracket-Precision-Alloy-Planetary/dp/B07SRXNSDC)
 - [Base plate](https://github.com/Scottapotamas/zaphod-bot/blob/master/mechanical/design/manf_outputs/machining_proto/base_plate_light.STEP)
