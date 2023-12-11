@@ -1,7 +1,4 @@
 
-![](https://raw.githubusercontent.com/samuk/Sawppy_Rover/e5f680594240ed2d8a4927f3c0a8c97fe7f28924/modifications/Ag/photos/delta.png)
-
-Keops would be nice, but kinematics obscure. Probably best to do arms instead.
 
 ![](https://raw.githubusercontent.com/Scottapotamas/zaphod-bot/master/docs/imgs/delta-render.jpg)
 
@@ -47,6 +44,11 @@ These components need to be assembled, tested & documented.
 
 
 # Older notes / Misc
+
+
+![](https://raw.githubusercontent.com/samuk/Sawppy_Rover/e5f680594240ed2d8a4927f3c0a8c97fe7f28924/modifications/Ag/photos/delta.png)
+
+Keops would be nice, but kinematics obscure. Probably best to do arms instead.
 
 - Possibly handy Python kinematics https://github.com/ArthasMenethil-A/Delta-Robot-Trajectory-Planning
 - 3x [3d print - corner.stl](https://openbuilds.com/builds/m3delta.1022/) for triangle - Todo
