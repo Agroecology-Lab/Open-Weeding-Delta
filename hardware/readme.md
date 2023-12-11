@@ -36,7 +36,7 @@ Use the mount plate and other mechanical components from the [Zaphod pictured ab
 
 ## Laser actuators
 
-[Neje A40640 ~£200](https://neje.shop/products/40w-laser-module-laser-head-for-cnc-laser-cutter-engraver-woodworking-machine)
+~200g payload [Neje A40640 ~£200](https://neje.shop/products/40w-laser-module-laser-head-for-cnc-laser-cutter-engraver-woodworking-machine)
 https://youtu.be/QrtGMzzSWDo?t=605
 
 [A40640, 450nm ~10w, 220g](https://www.aliexpress.com/item/4001287562336.html)
