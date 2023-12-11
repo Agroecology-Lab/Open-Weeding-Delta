@@ -23,7 +23,7 @@ Use the mount plate and other mechanical components from the [Zaphod pictured ab
 - 2X [Twisted fields motor drivers](https://github.com/Twisted-Fields/rp2040-motor-controller#rp2040-motor-controller), [Firmware](https://github.com/Twisted-Fields/rp2040-motor-firmware#twisted-fields-rp2040-motor-controller-firmware), [interface](https://docs.simplefoc.com/commander_interface)
 - 1x [AI-64](https://www.beagleboard.org/boards/beaglebone-ai-64)
 - 1x [CanBus cape](https://www.beyondlogic.org/adding-can-to-the-beaglebone-black/) 
-- 3x [TOF?](https://www.aliexpress.com/item/32958364902.html)
+- 1x [TOF?](https://www.aliexpress.com/item/32958364902.html) to calibrate against ground.
 
 # Vision System
 - [VGA TOF sensor?](https://github.com/lnsru/melexis_VGA_ToF_camera) [info](https://www.melexis.com/en/product/MLX75027/Gen3-VGA-time-of-flight-3D-camera)
