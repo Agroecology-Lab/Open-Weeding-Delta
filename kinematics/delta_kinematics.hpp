@@ -8,13 +8,19 @@ namespace delta {
 
 struct Vec3 { double v[3]; double& operator()(int i){return v[i];} double operator()(int i) const {return v[i];} };
 
+// Defaults: Scottapotamas/zaphod-bot firmware/src/drivers/kinematics.c
+//   rf = 180 mm (bicep), re = 340 mm (rod), f = 50 mm, e = 34 mm.
+//   Zaphod's f, e are triangle side lengths (Chong IK): radial offset = f/(2*sqrt3).
+//   Effective r = r_A - r_B = (f - e)*tan30/2 = 4.619 mm, same as zaphod's `t`.
+// Joint limits: zaphod theta in [-45, +65] deg, theta positive = arm down.
+//   This code uses q = -theta (q negative = arm down) -> q in [-65, +45] deg.
 struct Params {
-  double length_A = 0.05;    // upper arm (bicep)
-  double length_B = 0.10;    // forearm (rod)
-  double r_A      = 0.0525;  // base: motor axis radius
-  double r_B      = 0.026;   // effector: joint radius
-  double q_min    = -1.75;   // joint limits [rad]
-  double q_max    =  0.85;
+  double length_A = 0.180;                 // bicep
+  double length_B = 0.340;                 // rod
+  double r_A      = 0.050 / 3.4641016151377544;  // 14.434 mm
+  double r_B      = 0.034 / 3.4641016151377544;  //  9.815 mm
+  double q_min    = -65.0 * M_PI / 180.0;  // [rad]
+  double q_max    =  45.0 * M_PI / 180.0;
 };
 
 class Kinematics {
