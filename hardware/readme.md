@@ -19,11 +19,7 @@ Use the mount plate and other mechanical components from the [Zaphod pictured ab
 - [End effector/ hub](https://github.com/Scottapotamas/zaphod-bot/blob/master/mechanical/design/manf_outputs/printed_proto/proto_3/effector_3.STEP)
 
 # Reference Electronics
-
-- 2X [Twisted fields motor drivers](https://github.com/Twisted-Fields/rp2040-motor-controller#rp2040-motor-controller), [Firmware](https://github.com/Twisted-Fields/rp2040-motor-firmware#twisted-fields-rp2040-motor-controller-firmware), [interface](https://docs.simplefoc.com/commander_interface)
-- 1x [AI-64](https://www.beagleboard.org/boards/beaglebone-ai-64)
-- 1x [CanBus cape](https://www.beyondlogic.org/adding-can-to-the-beaglebone-black/) 
-- 1x [TOF?](https://www.aliexpress.com/item/32958364902.html) to calibrate against ground.
+- 1x [ESP32 & RS485 expansion](https://wiki.seeedstudio.com/XIAO-RS485-Expansion-Board/)
 
 # Vision System
 - [VGA TOF sensor?](https://github.com/lnsru/melexis_VGA_ToF_camera) [info](https://www.melexis.com/en/product/MLX75027/Gen3-VGA-time-of-flight-3D-camera)
